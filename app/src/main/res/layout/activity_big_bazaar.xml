@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.om.bigbazaar.BigBazaar">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#9575cd"/>
+    <ImageView
+        android:id="@+id/big"
+        android:layout_width="300dp"
+        android:layout_height="200dp"
+        android:src="@drawable/big"
+        android:layout_centerHorizontal="true"
+        android:padding="20dp" />
+    <TextView
+        android:id="@+id/address"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#f50057"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:text="Great Prices-Good Variety!! \nAddress: 180/123, Minerva Complex, Ambala Cantt, Haryana"
+        android:layout_below="@id/big"
+        android:fontFamily="cursive"
+        />
+
+    <TextView
+        android:id="@+id/contact"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Contact: 7206087399"
+        android:autoLink="phone"
+        android:fontFamily="cursive"
+        android:textColor="#f50057"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/address"
+
+        />
+    <TextView
+        android:id="@+id/timings"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Timings: 10AM-10PM"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+        android:fontFamily="cursive"
+        android:textColor="#f50057"
+        android:layout_below="@id/contact"
+         />
+</RelativeLayout>
